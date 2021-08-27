@@ -9,7 +9,7 @@ services:
       - postgres
     container_name: demo_api
     ports:
-      - 3003:3000
+      - 3004:3000
 
   postgres:
     image: postgres
